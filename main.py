@@ -16,3 +16,5 @@ qr.make(fit=True)
 img = qr.make_image(fill_color="white", back_color="black")
 
 img.save("output.png")
+
+print("QR code generated as output.png")
